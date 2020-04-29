@@ -1,0 +1,20 @@
+body.fon {
+    background-color: #717f78;
+}
+
+h1 {
+    text-align: center;
+}
+ h2 {
+     text-transform: none;
+     color: #2f5a49;
+ }
+
+ p {
+     background-color: #717f78;
+     color: antiquewhite;
+ }
+
+ .furniture {
+     background-color: cornflowerblue;
+ }
