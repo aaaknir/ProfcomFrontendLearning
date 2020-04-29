@@ -1,0 +1,32 @@
+a:hover {
+	color: rosybrown;
+	background-color: antiquewhite;
+}
+a:active {
+	color: white;
+	background-color: aquamarine;
+}
+a:link {
+	color: green;
+	background-color: cornflowerblue;
+}
+a:visited {
+	color: grey;
+	background-color: cyan;
+}
+h1:first-letter, h2:first-letter, h3:first-letter {
+	font-size: 24px;
+	color: red;
+}
+p.first:first-line {
+	font-style: italic;
+}
+
+.test:before, .test:after{
+	content: '\2660';
+}
+
+::selection{
+	color: lightgrey;
+	background: #000000;
+}
