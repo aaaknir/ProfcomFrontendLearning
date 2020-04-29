@@ -1,0 +1,25 @@
+img[title="picture1"] {
+    width: 100px;
+    border: 20px dotted pink;
+}
+
+img[title="picture2"] {
+    width: 200px;
+    border: 25px solid #808080;
+    border-top-width: 35px;
+    border-bottom-width: 100px;
+}
+
+img[title="picture3"] {
+    width: 300px;
+}
+
+a[href="https://www.livelib.ru/"] {
+    border: 2px solid cyan;
+    padding: 2px;
+}
+
+a[href="https://www.coursera.org/"] {
+    font-weight: bold;
+    color: red;
+}
