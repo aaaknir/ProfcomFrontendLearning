@@ -1,0 +1,19 @@
+h1 {
+    text-shadow: 0 0 10px #554941;
+    color: white;
+    text-align: center;
+}
+
+p {
+    line-height: 3em;
+    text-indent: 1em;
+}
+
+ul {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ol {
+    list-style-image: url("../img/1.png");
+}
