@@ -1,0 +1,13 @@
+body {
+    background: lightgrey;
+}
+
+p {
+    background: antiquewhite;
+    font-style: italic;
+}
+
+p.new {
+    color: cornflowerblue;
+    font-style: normal;
+}
