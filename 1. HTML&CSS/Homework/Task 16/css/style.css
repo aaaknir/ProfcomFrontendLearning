@@ -1,0 +1,45 @@
+body {
+    background-color: #c5b6ac;
+}
+
+div {
+    float: left;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+#div1, #div7 {
+    width: 100%;
+    min-height: 80px;
+    background-color: #59463d;
+}
+#div1 {
+    color: white;
+    box-shadow: 0 0 2px grey;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+#div2, #div3, #div4, #div5, #div6 {
+    min-height: 350px;
+    border: 10px solid #9a5444;
+}
+
+#div2 {
+    width: 65%;
+    padding: 10px;
+    line-height: 2em;
+}
+
+#div3 {
+    width: 35%;
+}
+
+#div4, #div5, #div6 {
+    width: 33.33%;
+}
