@@ -1,0 +1,16 @@
+p {
+    font-family: "Andale Mono", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    color: cornflowerblue;
+    background-color: aliceblue;
+    text-transform: capitalize;
+}
+
+p:first-line {
+    text-decoration: underline;
+    letter-spacing: 1em;
+    word-spacing: 2px;
+}
