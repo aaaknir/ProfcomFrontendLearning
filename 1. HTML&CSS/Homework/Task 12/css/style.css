@@ -1,0 +1,24 @@
+body{
+	padding: 20px;
+}
+
+h1{
+	font-family: Arial, Helvetica, Verdana;
+}
+p{
+	font-size: 1.2em;
+	font-family: 'Cormorant Garamond', serif;
+	/*color: 	#f34;
+	background-color: #011;
+	text-transform: uppercase;
+	font-variant: 	small-caps;
+	text-decoration: underline;*/
+	letter-spacing: 1px;
+	word-spacing: 3px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline; 
+}
