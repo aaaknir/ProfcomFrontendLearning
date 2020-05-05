@@ -1,0 +1,17 @@
+body{
+	padding: 20px;
+}
+p.test{
+	border: 2px double #f53;
+}
+p.test2{
+	border: 1px solid #693;
+}
+p.test2 strong{
+	border: 2px solid #693;
+	margin-top: 30px;
+	display: inline-block;
+}
+li{
+	display: inline;
+}
