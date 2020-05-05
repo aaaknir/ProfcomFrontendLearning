@@ -1,0 +1,14 @@
+ul {
+    border-radius: 10px;
+    border-width: 3px;
+    border-color: #669933;
+    border-style: dashed;
+}
+
+p {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    max-width: 200px;
+    max-height: 200px;
+    box-sizing: border-box;
+    overflow: auto;
+}
