@@ -1,0 +1,30 @@
+body{
+	padding: 20px;
+}
+p.test{
+	border: 2px double #f53;
+}
+p.test2{
+	border: 1px solid #693;
+	background: red;
+	border-radius: 40px/20px;
+	padding: 5px;
+	width: 30em;
+	min-height: 200px;
+
+	overflow: auto;
+}
+li{
+	display: inline;
+}
+p{
+	box-shadow: 4px 4px 11px rgba(0, 4, 0, .7); /*горизонт   вертикаль размытие */
+}
+h2{
+	width: 300px;
+	padding: 15px;
+	border-width: 5px;
+	margin: 10px;
+	border: 1px solid #888;
+	box-sizing: border-box;
+}
