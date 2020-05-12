@@ -1,0 +1,22 @@
+body {
+	padding: 60px;
+	background-repeat: no-repeat;
+	background-image: url(../images/fon.jpg),
+					  url(../images/1.png);
+}
+
+p.p1 {
+	background-image: url(../images/fon1.jpg);
+}
+
+p.p2 {
+	background-image: url(../images/fon2.jpg);
+}
+
+p.p3 {
+	background-image: url(../images/fon3.jpg);
+}
+
+p.p4 {
+	background-image: url(../images/fon4.jpg);
+}
