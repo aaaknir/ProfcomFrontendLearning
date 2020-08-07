@@ -4,16 +4,13 @@
         constructor (el) {
             this.el = el;
         }
-        static Create(tagName = 'div', attrs = {}, classes = [], text = null) {
+        static Create(tagName = 'div', classes = [], attrs = {}) {
             const el = document.createElement(tagName);
             classes.forEach(function (className) {
                 el.classList.add(className);
             });
             for (let name in attrs) {
                 el.setAttribute(name, attrs[name]);
-            }
-            if (text) {
-                el.textContent = text;
             }
             return new Block(el);
         }

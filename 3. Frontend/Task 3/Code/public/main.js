@@ -14,9 +14,9 @@
         scores: new Block(document.getElementById('scores')),
     };
     const sections = {
-        auth: new Block.Create('section', ['auth-section']),
-        signup: new Block.Create('section', ['signup-section']),
-        scores: new Block.Create('section', ['scores-section']),
+        auth: Block.Create('section', ['auth-section']),
+        signup: Block.Create('section', ['signup-section']),
+        scores: Block.Create('section', ['scores-section']),
         hide() {
             this.auth.hide();
             this.signup.hide();
