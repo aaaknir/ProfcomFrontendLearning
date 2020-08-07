@@ -6,7 +6,7 @@
             const el = document.createElement('form');
             super(el);
             fields.forEach(function (field) {
-                const f = Block.Create('input', field.attrs || {}, field.classes || []);
+                const f = Block.Create('input', field.classes || [], field.attrs || {});
                 this.append(f);
             }.bind(this));
         }

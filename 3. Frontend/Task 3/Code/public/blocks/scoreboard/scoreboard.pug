@@ -1,0 +1,11 @@
+h2 'Список пользователей'
+table
+    thead
+        tr
+            th 'Email'
+            th 'Scores'
+    tbody
+        tr
+            each user in users
+                th #{user.email}
+                th #{user.score}
