@@ -1,4 +1,4 @@
-# 4-katya
+# Vue Web App
 
 ## Project setup
 ```
