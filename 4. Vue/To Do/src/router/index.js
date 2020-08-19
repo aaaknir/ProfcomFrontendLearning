@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Buefy from 'buefy'
+import 'buefy/dist/buefy.css'
 
+Vue.use(Buefy)
 Vue.use(VueRouter)
 
 const routes = [
@@ -13,11 +16,6 @@ const routes = [
     path: '/MainScreen',
     name: 'MainScreen',
     component: () => import('../views/MainScreen.vue')
-  },
-  {
-    path: '/Contacts',
-    name: 'Contacts',
-    component: () => import('../views/Contacts.vue')
   }
 ]
 
