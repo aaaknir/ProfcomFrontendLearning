@@ -1,18 +1,10 @@
 import Vue from 'vue'
 import App from './App.vue'
-import startScreen from "./components/startScreen";
-import startForm from "./components/startForm";
-import mainScreen from "./components/mainScreen";
-import toDo from "./components/toDo";
-import Contacts from "./components/Contacts";
+import router from './router'
 
-Vue.component('start-screen', startScreen);
-Vue.component('start-form', startForm);
-Vue.component('main-screen', mainScreen);
-Vue.component('main-screen-to-do', toDo);
-Vue.component('main-screen-contacts', Contacts);
+Vue.config.productionTip = false
 
 new Vue({
-  el: '#app',
+  router,
   render: h => h(App)
-})
+}).$mount('#app')

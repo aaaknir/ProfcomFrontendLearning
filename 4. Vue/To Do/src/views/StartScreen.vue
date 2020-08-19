@@ -1,5 +1,5 @@
 <template>
-  <div id="start">
+  <div id="start" v-if="page_state.state === 'start'">
     <div id="hello">
       <span>Приветствую, дорогой друг!</span>
     </div>
@@ -7,13 +7,30 @@
       <button type="button" @click="openForm">Вход</button>
     </div>
   </div>
+  <start-form v-else-if="page_state.state === 'form'"></start-form>
+  <div v-else>
+    <h1>Ошибочное состояние</h1>
+  </div>
 </template>
 
 <script>
+  import StartForm from '../components/StartForm';
+
   export default {
+    components: {
+      StartForm
+    },
+    data() {
+      return {
+        page_state: {
+          states: [ 'start', 'form' ],
+          state: 'start'
+        }
+      }
+    },
     methods: {
       openForm () {
-        this.$emit('open');
+        this.page_state.state = 'form';
       }
     }
   }

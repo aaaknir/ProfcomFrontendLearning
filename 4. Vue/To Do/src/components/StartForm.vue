@@ -1,25 +1,26 @@
 <template>
-  <div id="form">
-    <form>
-      <label>Введите кодовое слово</label><input type="text" v-model="input_word" required>
-      <button type="submit" @click="validateForm">Отправить</button>
-    </form>
-  </div>
+  <form id="form" onsubmit="return false">
+    <label>Введите кодовое слово</label>
+    <input type="text" v-model="input_word" required>
+    <button @click="validateForm">Отправить</button>
+  </form>
 </template>
 
 <script>
+
+const SPECIAL_WORD = 'привет';
+
 export default {
   name: "startForm",
   data() {
     return {
       input_word: '',
-      special_word: 'привет'
     }
   },
   methods: {
     validateForm () {
-      if (this.input_word === this.special_word) {
-        this.$emit('correct');
+      if (this.input_word === SPECIAL_WORD) {
+        this.$router.push('MainScreen');
       } else {
         alert("Ты не пройдешь! Кодовое слово: привет");
       }
@@ -29,7 +30,7 @@ export default {
 </script>
 
 <style scoped>
- div#form {
+ #form {
     padding: 166px;
     min-height: 468px;
     background: #EEECEC;
