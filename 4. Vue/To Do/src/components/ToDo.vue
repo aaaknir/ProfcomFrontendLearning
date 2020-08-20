@@ -2,7 +2,7 @@
     <div id="to-do">
         <form id="new-todo">
             <b-field><b-input placeholder="Название задачи" id="new-todo-name" v-model="new_todo" form="new-todo"></b-input></b-field>
-            <b-field><b-datepicker placeholder="Дедлайн" icon="calendar-today" editable v-model="new_todo_date" id="new-todo-date" form="new-todo"></b-datepicker></b-field>
+           <!-- <b-field><b-datepicker placeholder="Дедлайн" icon="calendar-today" editable v-model="new_todo_date" id="new-todo-date" form="new-todo"></b-datepicker></b-field>-->
             <b-field><b-select placeholder="Приоритетность" v-model="new_todo_priority" id="new-todo-priority" form="new-todo">
                 <option>!!!</option>
                 <option>!!</option>
@@ -73,6 +73,7 @@
                         priority: this.new_todo_priority,
                         done: false
                     });
+                    console.log(this.new_todo_date);
                     this.new_todo = '';
                     this.new_todo_date = '';
                     this.new_todo_priority = '';
@@ -99,6 +100,10 @@
         padding-top: 42px;
         margin-left: 50px;
     }
+    div.field div {
+        margin: 0;
+        float: left;
+    }
     div.field div.is-clearfix {
         width: 1010px;
         height: 50px;
@@ -106,6 +111,10 @@
     div.field div.datepicker {
         width: 330px;
         height: 50px;
+    }
+    div.buttons {
+        float: right;
+        margin-right: 45px;
     }
     #to-do .filter-panel {
         width: 1100px;
@@ -177,9 +186,11 @@
         width: 23px;
         height: 18px;
         margin-top: 18px;
+        margin-left: 0;
+        padding-left: 0;
     }
     #to-do .todos-panel .block-card-short {
-        margin-left: 27px;
+        //margin-left: 27px;
         font-style: normal;
         font-weight: bold;
         font-size: 16px;
