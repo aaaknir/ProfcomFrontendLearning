@@ -60,33 +60,33 @@ name: "Contacts",
         grid-template-columns: 50% 50%;
         padding-left: 60px;
     }
-  div#about, div#wishes {
-    width: 500px;
-    height: 654px;
-    background: #FFFFFF;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-  }
-  div#about img#mine {
-      border-radius: 100px;
-      height: 70%;
-      margin: 40px auto 0;
-  }
-  div#links {
-      padding-top: 0;
-      margin: 0 auto;
-  }
-  div#links img {
-      height:100px;
-      padding: 5px;
-  }
+    div#about, div#wishes {
+        width: 500px;
+        height: 654px;
+        background: #FFFFFF;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+    div#about img#mine {
+        border-radius: 100px;
+        height: 70%;
+        margin: 40px auto 0;
+    }
+    div#links {
+        padding-top: 0;
+        margin: 0 auto;
+    }
+    div#links img {
+        height:100px;
+        padding: 5px;
+    }
     div#wishes {
         padding: 15px;
     }
     div#wishes span {
-      color: #7957d5;
-      font-size: 18px;
-  }
+        color: #7957d5;
+        font-size: 18px;
+    }
     div#wishes div#warm {
         margin-top: 5px;
     }
