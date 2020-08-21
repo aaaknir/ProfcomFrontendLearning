@@ -45,7 +45,7 @@ export default {
     data() {
         return {
             new_todo: '',
-            new_todo_date: '',
+            new_todo_date: [],
             new_todo_priority: '',
             filter: 'all',
             todos: []
@@ -69,13 +69,12 @@ export default {
             if (this.new_todo && this.new_todo_date && this.new_todo_priority) {
                 this.todos.push({
                     title: this.new_todo,
-                    date: this.new_todo_date,
+                    date: this.new_todo_date.toString().substring(0,10),
                     priority: this.new_todo_priority,
                     done: false
                 });
-                console.log(this.new_todo_date);
                 this.new_todo = '';
-                this.new_todo_date = '';
+                this.new_todo_date = [];
                 this.new_todo_priority = '';
             } else {
                 this.$buefy.dialog.alert('Необходимо заполнить все поля!');
