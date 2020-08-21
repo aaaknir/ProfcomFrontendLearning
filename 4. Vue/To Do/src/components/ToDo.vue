@@ -45,8 +45,8 @@ export default {
     data() {
         return {
             new_todo: '',
-            new_todo_date: [],
-            new_todo_priority: '',
+            new_todo_date: new Date(),
+            new_todo_priority: 'none',
             filter: 'all',
             todos: []
         }
