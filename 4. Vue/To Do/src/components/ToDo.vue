@@ -10,7 +10,7 @@
                 <option>none</option>
             </b-select></b-field>
             <div class="buttons">
-                <b-button @click="addNewTodo" type="is-success" name="button" id="add-button" outlined>Добавить</b-button>
+                <b-button @click="addNewTodo" type="is-success" name="button" id="add-button">Добавить</b-button>
             </div>
         </form>
 
