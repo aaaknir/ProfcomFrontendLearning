@@ -69,7 +69,7 @@ name: "Contacts",
     }
     div#about img#mine {
         border-radius: 100px;
-        height: 70%;
+        height: 80%;
         margin: 40px auto 0;
     }
     div#links {
@@ -77,7 +77,7 @@ name: "Contacts",
         margin: 0 auto;
     }
     div#links img {
-        height:100px;
+        height:50px;
         padding: 5px;
     }
     div#wishes {
