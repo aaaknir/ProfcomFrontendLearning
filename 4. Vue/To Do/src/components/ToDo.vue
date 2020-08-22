@@ -74,8 +74,8 @@ export default {
                     done: false
                 });
                 this.new_todo = '';
-                this.new_todo_date = [];
-                this.new_todo_priority = '';
+                this.new_todo_date = new Date();
+                this.new_todo_priority = 'none';
             } else {
                 this.$buefy.dialog.alert('Необходимо заполнить все поля!');
             }
