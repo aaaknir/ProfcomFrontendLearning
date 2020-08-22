@@ -189,7 +189,7 @@ div.buttons {
     padding-left: 0;
 }
 #to-do .todos-panel .block-card-short {
-//margin-left: 27px;
+    margin-left: 20px;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
