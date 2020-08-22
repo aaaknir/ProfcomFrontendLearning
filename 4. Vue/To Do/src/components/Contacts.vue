@@ -3,10 +3,10 @@
         <div id="about">
             <img id="mine" src="../assets/mine.jpg" alt="Моя фотография">
             <div id="links">
-                <a href="https://vk.com/katerinka.dmitrievna"><img src="../assets/vk.png" alt="Вконтакте"></a>
-                <a href="https://www.instagram.com/kate_aknir/"><img src="../assets/instagram.png" alt="Instagram"></a>
-                <a href="tel:89060906479"><img src="../assets/tel.jpg" alt="Телефон"></a>
-                <a href="mailto:katepetrusova2012@gmail.com"><img src="../assets/mail.png" alt="Почта"></a>
+                <a target="_blank" href="https://vk.com/katerinka.dmitrievna"><img src="../assets/vk.png" alt="Вконтакте"></a>
+                <a target="_blank" href="https://www.instagram.com/kate_aknir/"><img src="../assets/instagram.png" alt="Instagram"></a>
+                <a target="_blank" href="tel:89060906479"><img src="../assets/tel.jpg" alt="Телефон"></a>
+                <a target="_blank" href="mailto:katepetrusova2012@gmail.com"><img src="../assets/mail.png" alt="Почта"></a>
             </div>
         </div>
         <div id="wishes">
